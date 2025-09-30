@@ -212,10 +212,9 @@ footer {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* --- Logo Styling --- */
+/* --- Logo Styling (FIXED) --- */
 .logo img {
-    height: 40px;   /* Atur tinggi yang kamu mau */
-    width: 150px;   /* Atur lebar yang kamu mau */
-    object-fit: contain; /* Mencegah gambar menjadi gepeng/terdistorsi */
-    vertical-align: middle;
+    height: 40px; /* Atur tinggi logo yang kamu mau */
+    width: auto;  /* Biarkan lebar menyesuaikan secara otomatis */
+    display: block; /* Ini membantu mengatasi masalah spasi ekstra */
 }
