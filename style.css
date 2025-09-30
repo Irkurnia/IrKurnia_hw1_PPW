@@ -214,7 +214,8 @@ footer {
 
 /* --- Logo Styling --- */
 .logo img {
-    height: 40px; /* <--- UBAH ANGKA INI */
-    width: auto;
+    height: 40px;   /* Atur tinggi yang kamu mau */
+    width: 150px;   /* Atur lebar yang kamu mau */
+    object-fit: contain; /* Mencegah gambar menjadi gepeng/terdistorsi */
     vertical-align: middle;
 }
