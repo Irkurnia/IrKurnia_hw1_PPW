@@ -211,3 +211,9 @@ footer {
     color: #888888;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.logo img {
+    height: 50px; 
+    width: auto;
+    vertical-align: middle; 
+}
